@@ -15,6 +15,23 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  function makeLine(n) {
+    if (n % 2 == 1) {
+      console.log('#_#_#_#_')
+    }
+    else {
+      console.log('_#_#_#_#')
+    }
+  }
+
+
+  for (let i = 1; i <= 8; i++) {
+    makeLine(i)
+  }
+
+
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
