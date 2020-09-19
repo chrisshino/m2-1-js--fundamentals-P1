@@ -54,6 +54,15 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 ```
 // Your solution here!
 
+let sentence = 'Hello world!'
+
+if (sentence.includes('Hello')){
+  console.log('Sentence DOES contain the word "Hello"')
+  else {
+    console.log('Sentence DOES NOT contain the word "Hello"');
+  }
+}
+
 ```
 
 ## Question 2: Get the specified item in the nested array
@@ -66,6 +75,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
+const firstIndex = 0;
+const secondIndex = 1;
+const thirdIndex = = 0;
+
+const array = [[1, [2, 3]]];
+console.log(array[firstIndex][secondindex][thirdIndex])
 
 ```
 
@@ -81,6 +97,15 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 ```
 // Your solution here!
 
+let currentNum = 10;
+let min = 5;
+
+while (currentNum > min) {
+  currentNum = currentNum - 1;
+  console.log(currentNum)
+}
+
+
 ```
 
 ## Question 4: Reverse the string to check for hidden messages
@@ -95,6 +120,17 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
+const encodedMessage = 'gnidliub gruobuaF eht rednu deirub si erusaert ehT';
+const letterArray = encodedMessage.split('');
+const reversedArray = letterArray.reverse();
+const reversedString = reversedArray.join('');
+
+if (reversedString.includes('treasure')) {
+  console.log('Your message:', reversedString)
+}
+
+
 
 ```
 
@@ -128,4 +164,11 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 ```
 // Your solution here!
 
+let numberToSearchFor = 5;
+let array = [1, 3, 7, 4, 5, 2, 1];
+let item = array[i];
+
+for (let i = 0; i < array.length; i++) {
+  if (item === numberToSearchFor) {
+    console.log('Array includes the number!')
 ```
