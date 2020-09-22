@@ -20,6 +20,22 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+
+  let a = 0;
+  let b = 1;
+  let result = 0
+
+  for (let i = 2; i < 50; i++){
+
+    result = a + b;
+    a = b;
+    b = result;
+
+  }
+
+  console.log(result)
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
