@@ -147,6 +147,14 @@ if (reversedString.includes('treasure')) {
 ```
 // Your solution here!
 
+let total = 0
+let count = 10
+while (count > 0) {
+  count = count - 1
+  total = total + count
+}
+console.log('The total is:', total)
+
 ```
 
 ## Question 6: Check if the array includes a specific number
